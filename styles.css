@@ -1,0 +1,360 @@
+@font-face {
+  font-family: OutfitRegular;
+  src: url("./static/Outfit-Regular.ttf");
+}
+
+@font-face {
+  font-family: OutfitBold;
+  src: url("./static/Outfit-Bold.ttf");
+}
+@font-face {
+  font-family: OutfitLight;
+  src: url("./static/Outfit-Light.ttf");
+}
+@font-face {
+  font-family: OutfitBlack;
+  src: url("./static/Outfit-Black.ttf");
+}
+
+@font-face {
+  font-family: OutfitThin;
+  src: url("./static/Outfit-Thin.ttf");
+}
+@font-face {
+  font-family: OutfitMedium;
+  src: url("./static/Outfit-Medium.ttf");
+}
+
+/* Colors 
+bg- #d5e1ef
+*/
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+
+
+
+
+@media screen and (max-width:1440px) {
+  body{
+    /* background-image: url('./images/favicon-32x32.png');
+    background-repeat: no-repeat; */
+    background-color:#d5e1ef ;
+    
+  }
+
+  /* .main-content-bg{
+    background-color: #d5e1ef;
+    width: 90%;
+    height: 70vh;
+  } */
+  .main-content{
+    width: 19vw;
+    height: 62vh;
+    background-color: white;
+    margin: auto;
+    margin-top: 9%;
+    border-radius: 15px;
+  }
+  .main-content .image{ 
+    display: flex;
+    justify-content: center;
+    
+  }
+  .main-content .image img{ 
+    height: 36vh;
+    margin-top: 14px;
+    border-radius:10px;
+  }
+
+  .main-content .heading{
+    text-align: center;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .main-content .heading h2{
+    font-size: 18px;
+    font-family: OutfitBold;
+    font-weight: 900;
+    text-shadow: 1px   hsl(218, 44%, 22%);
+    color: hsl(218, 44%, 22%);
+    /* margin-left: 10px;
+    margin-right: 10px; */
+    
+  }
+  .main-content .text{
+    text-align: center;
+    margin-top: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .main-content .text p{
+    font-size: 12px;
+    line-height: 1.2;
+    color: hsl(210, 9%, 73%);
+    font-family: OutfitRegular;
+    text-shadow: 1px black;
+  }
+
+}
+
+@media screen and (max-width:375px) {
+  body{
+    /* background-image: url('./images/favicon-32x32.png');
+    background-repeat: no-repeat; */
+    background-color:#d5e1ef ;
+    
+  }
+
+  /* .main-content-bg{
+    background-color: #d5e1ef;
+    width: 90%;
+    height: 70vh;
+  } */
+  .main-content{
+    width: 85vw;
+    height: 75vh;
+    background-color: white;
+    margin: auto;
+    margin-top: 23%;
+    border-radius: 20px;
+  }
+  .main-content .image{ 
+    display: flex;
+    justify-content: center;
+    
+  }
+  .main-content .image img{ 
+    height: 43vh;
+    width: 75vw;
+    margin-top: 18px;
+    border-radius:10px;
+  }
+
+  .main-content .heading{
+    text-align: center;
+    margin-top: 22px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .main-content .heading h2{
+    font-size: 22px;
+    font-family: OutfitBold;
+    font-weight: 900;
+    text-shadow: 1px   hsl(218, 44%, 22%);
+    color: hsl(218, 44%, 22%);
+    /* margin-left: 10px;
+    margin-right: 10px; */
+    
+  }
+  .main-content .text{
+    text-align: center;
+    margin-top: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .main-content .text p{
+    font-size: 18px;
+    line-height: 1.2;
+    color: hsl(210, 9%, 73%);
+    font-family: OutfitRegular;
+    text-shadow: 1px black;
+  }
+}
+
+@media screen and (max-width:430px) {
+  body{
+    /* background-image: url('./images/favicon-32x32.png');
+    background-repeat: no-repeat; */
+    background-color:#d5e1ef ;
+    
+  }
+
+  /* .main-content-bg{
+    background-color: #d5e1ef;
+    width: 90%;
+    height: 70vh;
+  } */
+  .main-content{
+    width: 85vw;
+    height: 75vh;
+    background-color: white;
+    margin: auto;
+    margin-top: 23%;
+    border-radius: 20px;
+  }
+  .main-content .image{ 
+    display: flex;
+    justify-content: center;
+    
+  }
+  .main-content .image img{ 
+    height: 43vh;
+    width: 75vw;
+    margin-top: 18px;
+    border-radius:10px;
+  }
+
+  .main-content .heading{
+    text-align: center;
+    margin-top: 22px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .main-content .heading h2{
+    font-size: 22px;
+    font-family: OutfitBold;
+    font-weight: 900;
+    text-shadow: 1px   hsl(218, 44%, 22%);
+    color: hsl(218, 44%, 22%);
+    /* margin-left: 10px;
+    margin-right: 10px; */
+    
+  }
+  .main-content .text{
+    text-align: center;
+    margin-top: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .main-content .text p{
+    font-size: 18px;
+    line-height: 1.2;
+    color: hsl(210, 9%, 73%);
+    font-family: OutfitRegular;
+    text-shadow: 1px black;
+  }
+}
+
+
+@media screen and (max-width:320px) {
+  body{
+    /* background-image: url('./images/favicon-32x32.png');
+    background-repeat: no-repeat; */
+    background-color:#d5e1ef ;
+    
+  }
+
+  /* .main-content-bg{
+    background-color: #d5e1ef;
+    width: 90%;
+    height: 70vh;
+  } */
+  .main-content{
+    width: 85vw;
+    height: 85vh;
+    background-color: white;
+    margin: auto;
+    margin-top: 23%;
+    border-radius: 20px;
+  }
+  .main-content .image{ 
+    display: flex;
+    justify-content: center;
+    
+  }
+  .main-content .image img{ 
+    height: 43vh;
+    width: 75vw;
+    margin-top: 18px;
+    border-radius:10px;
+  }
+
+  .main-content .heading{
+    text-align: center;
+    margin-top: 22px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .main-content .heading h2{
+    font-size: 20px;
+    font-family: OutfitBold;
+    font-weight: 900;
+    text-shadow: 1px   hsl(218, 44%, 22%);
+    color: hsl(218, 44%, 22%);
+    /* margin-left: 10px;
+    margin-right: 10px; */
+    
+  }
+  .main-content .text{
+    text-align: center;
+    margin-top: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .main-content .text p{
+    font-size: 15px;
+    line-height: 1.2;
+    color: hsl(210, 9%, 73%);
+    font-family: OutfitRegular;
+    text-shadow: 1px black;
+  }
+}
+
+@media screen and (max-width:162px) {
+  body{
+    /* background-image: url('./images/favicon-32x32.png');
+    background-repeat: no-repeat; */
+    background-color:#d5e1ef ;
+    
+  }
+
+  /* .main-content-bg{
+    background-color: #d5e1ef;
+    width: 90%;
+    height: 70vh;
+  } */
+  .main-content{
+    width: 80vw;
+    height: 210vh;
+    background-color: white;
+    margin: auto;
+    margin-top: 23%;
+    border-radius: 20px;
+  }
+  .main-content .image{ 
+    display: flex;
+    justify-content: center;
+    
+  }
+  .main-content .image img{ 
+    height: 70vh;
+    width: 70vw;
+    margin-top: 18px;
+    border-radius:10px;
+  }
+
+  .main-content .heading{
+    text-align: center;
+    margin-top: 22px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .main-content .heading h2{
+    font-size: 14px;
+    font-family: OutfitBold;
+    font-weight: 900;
+    text-shadow: 1px   hsl(218, 44%, 22%);
+    color: hsl(218, 44%, 22%);
+    /* margin-left: 10px;
+    margin-right: 10px; */
+    
+  }
+  .main-content .text{
+    text-align: center;
+    margin-top: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .main-content .text p{
+    font-size: 11px;
+    line-height: 1.2;
+    color: hsl(210, 9%, 73%);
+    font-family: OutfitRegular;
+    text-shadow: 1px black;
+  }
+}
